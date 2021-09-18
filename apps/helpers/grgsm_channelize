@@ -46,8 +46,8 @@ Example usage:
 grgsm_channelize.py -c my_wideband_capture.cfile -f 925.2e6 990 991 992 993 994 995 1019 1020 1021 1022 1023
 
 The above example will channelize my_wideband_capture.cfile, in this case a cfile captured at
-925.2 MHz centered (ARFCN 975) and 2 Msps. As a result, 12 files will be generated for
-ARFCNs 975 - 1023 at 1 Msps each.
+925.2 MHz centered (ARFCN 975) and 2 Msps. As a result, 11 files will be generated for
+ARFCNs 990-1023 at 1 Msps each.
 """
 
 def eng_float(value):
